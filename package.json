@@ -1,12 +1,12 @@
 {
-  "name": "ElevenTail",
+  "name": "BrowserExtension.dev",
   "version": "0.1.0",
-  "description": "A project scaffold for quick-starting a site with Eleventy and TailwindCSS",
-  "author": "Phil Hawksworth",
-  "license": "MIT",
+  "description": "The website of browserextension.dev",
+  "author": "Peter Thaleikis",
+  "license": "private",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/eleventail"
+    "url": "https://github.com/spekulatius/browserextension.dev"
   },
   "scripts": {
     "build": "npm-run-all build:css build:html",

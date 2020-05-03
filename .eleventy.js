@@ -2,8 +2,6 @@ const { DateTime }  = require('luxon');
 const util          = require('util');
 
 module.exports = function(eleventyConfig) {
-
-
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
   eleventyConfig.addLayoutAlias('conf', 'layouts/conf.njk');
