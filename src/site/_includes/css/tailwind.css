@@ -2,9 +2,25 @@
 @tailwind  base;
 /* purgecss end ignore */
 
-/*
-  Content sections conventions
-*/
+/**
+ * header
+ **/
+header h1 {
+  @apply pt-0;
+  @apply my-0;
+}
+
+/**
+ * body
+ **/
+body {
+  @apply bg-gray-300;
+  @apply font-mono;
+}
+
+/**
+ * Content sections conventions
+ */
 section {
   @apply pb-10;
   @apply px-4;
@@ -13,36 +29,61 @@ p+p {
   @apply mt-4;
 }
 
-/*
-  Global headings conventions
-*/
-h1.heading {
+/**
+ * Global headings conventions
+ */
+h1 {
   @apply text-3xl;
   @apply text-gray-900;
-  @apply mb-4;
+  @apply my-4;
+  @apply font-semibold;
+}
+h2 {
+  @apply text-2xl;
+  @apply text-gray-900;
+  @apply my-3;
+  @apply font-semibold;
+}
+h3 {
+  @apply text-xl;
+  @apply text-gray-900;
+  @apply my-2;
   @apply font-semibold;
 }
 @screen md {
-  h1.heading {
+  h1 {
     @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
   }
 }
 
-/*
-  Base styles for links
-*/
+/**
+ * Base styles for links
+ */
 a {
   @apply border-b-2;
-  @apply border-teal-400;
+  @apply border-blue-400;
 }
 a:hover,
 a:focus {
  @apply border-b-2;
- @apply border-teal-200;
+ @apply border-blue-200;
 }
 a.naked-link:link,
 a.naked-link:visited {
   @apply border-0;
+}
+a.footer-link {
+  @apply text-gray-700;
+  @apply font-bold;
+  @apply py-2;
+  @apply px-4;
+  @apply uppercase;
 }
 
 .content ul,
@@ -65,9 +106,9 @@ code {
   @apply rounded;
 }
 
-/*
-  Navigation links
-*/
+/**
+ * Navigation links
+ */
 .nav-tab {
   @apply inline-block;
   @apply text-white;
@@ -79,7 +120,7 @@ code {
 }
 .nav-tab:hover {
   @apply bg-white;
-  @apply text-teal-500;
+  @apply text-blue-500;
   @apply border-b-0;
 }
 

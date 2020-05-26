@@ -1,0 +1,14 @@
+    <div class="p-2 text-sm flex flex-row">
+      <img
+        src="{{ item.data.icon }}"
+        class="flex-no-shrink mr-2 rounded-sm"
+        style="width: 80px; height: 80px"
+      >
+      <div class="flex-shrink flex flex-col">
+        <a
+          href="{{ item.url }}"
+          class="font-semibold naked-link"
+        >{{ item.data.title }}</a>
+        <div class="text-xs">{{ item.data.description }}</div>
+      </div>
+    </div>

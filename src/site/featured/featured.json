@@ -1,0 +1,5 @@
+{
+    "layout" : "layouts/featured.njk",
+    "tags" : "featured",
+    "templateEngineOverride": "njk,md"
+  }

@@ -1,0 +1,5 @@
+{
+    "layout" : "layouts/directory.njk",
+    "tags" : "item",
+    "templateEngineOverride": "njk,md"
+  }

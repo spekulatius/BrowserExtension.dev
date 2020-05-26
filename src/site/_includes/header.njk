@@ -1,14 +1,15 @@
-<header class="bg-teal-500 flex justify-between px-4 py-2 mb-10">
-  {% if page.url == "/" %}
+<header class="bg-gray-900 flex justify-between px-4 py-2 mb-10 rounded-b-sm">
+  {# {% if page.url == "/" %}
   <h1 class=" text-white font-medium text-2xl">O RLY?</h1>
-  {% else %}
-  <h1 class=" text-white font-medium text-2xl"><a href="/" class="naked-link">BrowserExtension.dev</a></h1>
-  {% endif %}
+  {% else %} #}
+  <h1 class="text-white text-2xl pt-1"><a href="/" class="naked-link">BrowserExtension.dev</a></h1>
+  {# {% endif %} #}
   <nav>
     {%
       set linkList = [
         { "url": "/about" , "text": "About"},
-        { "url": "/blog" , "text": "Blog"}
+        { "url": "/blog" , "text": "Blog"},
+        { "url": "/submit-your-extension" , "text": "Submit"}
       ]
     %}
     {% include "navigation-links.njk" %}

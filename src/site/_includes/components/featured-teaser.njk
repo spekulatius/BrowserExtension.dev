@@ -1,0 +1,14 @@
+      <div class="p-2 text-sm">
+        {% if item.data.links.homepage != undefined %}
+        <a href="{{ item.data.links.homepage }}" target="_blank">
+        {% endif %}
+        <img src="{{ item.data.image }}" width="250px">
+        {% if item.data.links.homepage != undefined %}
+        </a>
+        {% endif %}
+
+        {{ item.templateContent | section | safe }}
+      </div>
+      <div class="block bg-white text-sm text-right py-2 px-3 -mx-3 -mb-2 rounded-b-md">
+        {% include 'components/icon-bar.njk' %}
+      </div>
