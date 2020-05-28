@@ -120,7 +120,12 @@ code {
 }
 .nav-tab:hover {
   @apply bg-white;
-  @apply text-blue-500;
+  @apply text-gray-900;
+  @apply border-b-0;
+}
+.nav-tab:focus {
+  @apply bg-white;
+  @apply text-gray-900;
   @apply border-b-0;
 }
 
