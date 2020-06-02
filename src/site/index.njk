@@ -4,6 +4,8 @@ layout: default
 ---
 <div class="flex flex-col md:flex-row mx-3 md:mx-0">
   <div class="w-full md:pr-2 md:w-4/6">
+
+    {# Directory section #}
     <div class="bg-white shadow-md rounded-md px-3 py-2 mb-4">
       <div class="block text-gray-700 text-lg font-semibold py-2 px-2">
         The Newest Extensions
@@ -13,16 +15,15 @@ layout: default
       {%- endfor -%}
     </div>
 
-<!--
+    {# Blog section #}
     <div class="bg-white shadow-md rounded-md px-3 py-2 mb-4">
       <div class="block text-gray-700 text-lg font-semibold py-2 px-2">
         From the Blog
       </div>
       {%- for item in collections.post | reverse -%}
-      {% include 'components/blog-teaser.njk' %}
+      {% include 'components/homepage-blog-teaser.njk' %}
       {%- endfor -%}
     </div>
--->
   </div>
 
   <div class="w-full md:pl-2 md:w-2/6">
