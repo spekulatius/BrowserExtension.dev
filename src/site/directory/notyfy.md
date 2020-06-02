@@ -18,6 +18,8 @@ links:
 
 [Notyfy](https://notyfy.co) aggregates your notifications across various platforms and displays them in one place. Clicking on the notification will guide you directly to the notification's platform and its content.
 
+*By the way, you can read more about the [Notyfy extension and Simon](/blog/simon-from-notyfy/), the developer behind it in his interview. Enjoy!*
+
 
 ## No Login Details Required
 
