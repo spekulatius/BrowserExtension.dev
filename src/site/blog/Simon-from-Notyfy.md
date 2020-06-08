@@ -2,6 +2,12 @@
 title: Notyfy Helps You Managing Your Notifications
 date: 2020-06-02
 type: Interview
+
+links:
+  homepage: https://notyfy.co
+  chrome: https://chrome.google.com/webstore/detail/notyfy-web-notifications/jchnjaoenbpjjnfgnfhfljcdfhmpljic
+  firefox: https://addons.mozilla.org/en-US/firefox/addon/notyfy/
+  productHunt: https://www.producthunt.com/posts/notyfy-2
 ---
 
 Notyfy is a browser extension to keep your notifications under control. In this interview Simon shares his story of the extension with us.
@@ -38,8 +44,8 @@ Some users may remember the chrome extension "Chime for Chrome", which I was a b
 Notyfy wants to pick up where "Chime for Chrome" left off, while making it better and more current.
 
 
-What tech stack do you use? Did you use a particular boilerplate to get started?
---------------------------------------------------------------------------------
+What tech stack do you use?
+---------------------------
 
 I'm using React, TypeScript and Ionic with redux. Sadly all the boilerplates were very outdated and required a lot of research. I started off with a [Vue chrome extension boilerplate](https://vue-web-extension.netlify.app/) that was missing TypeScript support and an in-sync state management (extensions have different areas of execution and need to stay in sync).
 
