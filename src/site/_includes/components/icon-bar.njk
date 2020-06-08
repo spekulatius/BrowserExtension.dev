@@ -1,37 +1,44 @@
-<div class="flex flex-row">
-    {% if item.data.links.chrome != undefined %}
-    <a
-        href="{{ item.data.links.chrome }}?ref=browserextension.dev"
-        class="pl-2 naked-link"
-        title="Get it for Google Chrome, Brave and Chromium"
-        target="_blank"
-    >{% include 'components/icons/chrome.njk' %}</a>
-    {% endif %}
-
-    {% if item.data.links.firefox != undefined %}
-    <a
-        href="{{ item.data.links.firefox }}?ref=browserextension.dev"
-        class="pl-2 naked-link"
-        title="Get it for Firefox and Firefox-based browsers"
-        target="_blank"
-    >{% include 'components/icons/firefox.njk' %}</a>
-    {% endif %}
-
-    {% if item.data.links.opera != undefined %}
-    <a
-        href="{{ item.data.links.opera }}?ref=browserextension.dev"
-        class="pl-2 naked-link"
-        title="Get it for Opera"
-        target="_blank"
-    >{% include 'components/icons/opera.njk' %}</a>
-    {% endif %}
-
-    {% if item.data.links.edge != undefined %}
-    <a
-        href="{{ item.data.links.edge }}?ref=browserextension.dev"
-        class="pl-2 naked-link"
-        title="Get it for Microsoft Edge"
-        target="_blank"
-    >{% include 'components/icons/edge.njk' %}</a>
-    {% endif %}
+{% if item.data.links == undefined %}
+<div class="flex flex-row font-semibold p-4 rounded-md bg-gray-400 text-sm max-w-xs my-8">
+  Get it for:
+  {% if links.chrome != undefined %}<a href="{{ links.chrome }}?ref=browserextension.dev" class="pl-2 naked-link" title="Get it for Google Chrome, Brave or Chromium" target="_blank">{% include 'components/icons/chrome.njk' %}</a>{% endif %}
+  {% if links.firefox != undefined %}<a href="{{ links.firefox }}?ref=browserextension.dev" class="pl-2 naked-link" title="Get it for Firefox and other Firefox-based browsers" target="_blank">{% include 'components/icons/firefox.njk' %}</a>{% endif %}
+  {% if links.edge != undefined %}<a href="{{ links.edge }}?ref=browserextension.dev" class="pl-2 naked-link" title="Get it for Microsoft Edge" target="_blank">{% include 'components/icons/edge.njk' %}</a>{% endif %}
+  {% if links.opera != undefined %}<a href="{{ links.opera }}?ref=browserextension.dev" class="pl-2 naked-link" title="Get it for Opera" target="_blank">{% include 'components/icons/opera.njk' %}</a>{% endif %}
 </div>
+{% else %}
+<div class="flex flex-row mb-2">
+  {% if item.data.links.chrome != undefined %}
+  <a
+    href="{{ item.data.links.chrome }}?ref=browserextension.dev"
+    class="pl-2 naked-link"
+    title="Get it for Google Chrome, Brave or Chromium"
+    target="_blank"
+  >{% include 'components/icons/chrome.njk' %}</a>
+  {% endif %}
+  {% if item.data.links.firefox != undefined %}
+  <a
+    href="{{ item.data.links.firefox }}?ref=browserextension.dev"
+    class="pl-2 naked-link"
+    title="Get it for Firefox and other Firefox-based browsers"
+    target="_blank"
+  >{% include 'components/icons/firefox.njk' %}</a>
+  {% endif %}
+  {% if item.data.links.opera != undefined %}
+  <a
+    href="{{ item.data.links.opera }}?ref=browserextension.dev"
+    class="pl-2 naked-link"
+    title="Get it for Opera"
+    target="_blank"
+  >{% include 'components/icons/opera.njk' %}</a>
+  {% endif %}
+  {% if item.data.links.edge != undefined %}
+  <a
+    href="{{ item.data.links.edge }}?ref=browserextension.dev"
+    class="pl-2 naked-link"
+    title="Get it for Microsoft Edge"
+    target="_blank"
+  >{% include 'components/icons/edge.njk' %}</a>
+  {% endif %}
+</div>
+{% endif %}
