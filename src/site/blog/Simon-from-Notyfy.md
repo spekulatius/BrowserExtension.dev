@@ -2,6 +2,7 @@
 title: Notyfy Helps You Managing Your Notifications
 date: 2020-06-02
 type: Interview
+image: https://browserextension.dev/images/Notyfy/sharing.png
 
 links:
   homepage: https://notyfy.co
@@ -35,6 +36,7 @@ Which browsers do you support?
 ------------------------------
 
 Notyfy supports [Chrome](https://chrome.google.com/webstore/detail/notyfy-web-notifications/jchnjaoenbpjjnfgnfhfljcdfhmpljic), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/notyfy/), and [Edge](https://microsoftedge.microsoft.com/addons/detail/gnmgkdmmejppbhfjhkknjfigflkfjijm).
+
 
 What motivated you to get started?
 ----------------------------------

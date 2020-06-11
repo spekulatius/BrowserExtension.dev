@@ -1,7 +1,8 @@
 ---
 title: Stopaganda Plus Helps You Understand Media Biases
-date: 2020-06-10
+date: 2020-06-11
 type: Interview
+image: https://browserextension.dev/images/StopagandaPlus/sharing.png
 
 links:
   chrome: https://chrome.google.com/webstore/detail/stopaganda-plus/ejcmfianlbiiafmcnhmnpndoddnimjki
