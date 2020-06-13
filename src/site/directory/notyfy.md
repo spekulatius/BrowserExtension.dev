@@ -3,6 +3,7 @@ title: Notyfy
 date: 2020-05-07
 icon: https://ph-files.imgix.net/28894083-fbe0-482e-90a0-5ed227549fd3
 description: Notyfy aggregates your notifications across various platforms and displays them in one place.
+keywords: notification, extension, browser extension, edge extension, producthunt, twitter, facebook
 
 categories:
   - productivity

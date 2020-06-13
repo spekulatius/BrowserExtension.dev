@@ -3,6 +3,7 @@ title: Kaffae - Read Smarter, Remember More.
 date: 2020-06-05
 icon: /images/kaffae-icon.png
 description: Kaffae helps you to build long lasting knowledge from your reading through AI-powered reminders, analytics, and personal library.
+keywords: AI, extension, web-extension, reading, knowledge
 
 categories:
   - productivity

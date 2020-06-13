@@ -1,4 +1,7 @@
 <link rel="canonical" href="{{ canoncial or 'https://browserextension.dev' + page.url }}" />
+<meta name="description" content="{%- if description -%}{{ description }}{%- else -%}A blog around everything related to browser extensions: discovery, discussion and of course development.{%- endif -%}" />
+<meta name="keywords" content="{%- if keywords -%}{{ keywords }}{%- else -%}browser extension, web extension, chrome extension, development, directory, submit, learn how to build{%- endif -%}" />
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="BrowserExtension.dev" />
 <meta name="twitter:creator" content="@spekulatius1984" />
@@ -6,6 +9,7 @@
 <meta name="twitter:description" content="{%- if description -%}{{ description }}{%- else -%}A blog around everything related to browser extensions: discovery, discussion and of course development.{%- endif -%}" />
 <meta name="twitter:url" content="{{ 'https://browserextension.dev' + page.url }}">
 <meta name="twitter:image" content='{%- if image -%}{{ image }}{%- else -%}https://browserextension.dev/images/social.png{%- endif -%}' />
+
 <meta property="og:url" content="{{ 'https://browserextension.dev' + page.url }}" />
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ title }}" />

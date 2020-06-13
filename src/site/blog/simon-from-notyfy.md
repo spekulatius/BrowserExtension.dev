@@ -3,6 +3,8 @@ title: Notyfy Helps You Managing Your Notifications
 date: 2020-06-02
 type: Interview
 image: https://browserextension.dev/images/Notyfy/sharing.png
+description: Notyfy is a browser extension to keep your notifications under control. In this interview Simon shares his story of the extension with us.
+keywords: notification management, interview, extension development
 
 links:
   homepage: https://notyfy.co

@@ -3,6 +3,8 @@ title: Stopaganda Plus Helps You Understand Media Biases
 date: 2020-06-11
 type: Interview
 image: https://browserextension.dev/images/StopagandaPlus/sharing.png
+description: Even frequent readers aren't always aware of biases in media outlets. Stopaganda Plus helps you understanding the various media biases of over 3100 websites.
+keywords: media biases, interview, browser extension development
 
 links:
   chrome: https://chrome.google.com/webstore/detail/stopaganda-plus/ejcmfianlbiiafmcnhmnpndoddnimjki
