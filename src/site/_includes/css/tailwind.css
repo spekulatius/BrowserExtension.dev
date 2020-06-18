@@ -92,7 +92,7 @@ a.footer-link {
 }
 .content li {
   @apply list-disc;
-  @apply ml-6;
+  @apply m-6;
 }
 .content ol li {
   @apply list-decimal;

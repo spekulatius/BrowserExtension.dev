@@ -1,5 +1,5 @@
 ---
-title: Colors and Fonts Extractor
+title: Extract Colors and Fonts From Websites
 date: 2020-06-15
 type: Interview
 image: https://browserextension.dev/images/Colors-and-Fonts-Extractor/sharing.png
