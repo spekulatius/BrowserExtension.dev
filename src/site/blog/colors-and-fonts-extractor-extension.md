@@ -3,7 +3,7 @@ title: Extract Colors and Fonts From Websites
 date: 2020-06-15
 type: Interview
 image: https://browserextension.dev/images/Colors-and-Fonts-Extractor/sharing.png
-description:
+description: Colors and Fonts Extractor is an extension to export the color palette of an website for development purposes.
 keywords: css inspect, color palette, export, interview, extension development
 
 links:
