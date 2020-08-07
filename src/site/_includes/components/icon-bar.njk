@@ -1,4 +1,4 @@
-{% if item.data.links == undefined %}
+{% if links !== undefined %}
 <div class="flex flex-row font-semibold p-4 rounded-md bg-gray-400 text-sm max-w-xs my-8">
   Get it for:
   {% if links.chrome != undefined %}<a href="{{ links.chrome }}?ref=browserextension.dev" class="pl-2 naked-link" title="Get it for Google Chrome, Brave or Chromium" target="_blank">{% include 'components/icons/chrome.njk' %}</a>{% endif %}
