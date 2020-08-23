@@ -31,7 +31,7 @@ We might use bookmarks or simply download a copy of a document. For senior citiz
 #3 Getting started right with a useful new tab
 ----------------------------------------------
 
-You might be happy starting at Google's Homepage, but for your grandma, a page with some more information or direct links might be a better starting point. [Speed dial 2](https://chrome.google.com/webstore/detail/speed-dial-2-new-tab/jpfpebmajhhopeonhlcgidhclcccjcik) is a simple new-tab extension you can customize. Set it to show big links with icons to make sure she finds her way around the web easier. This avoids typing which is more challenging for seniors. Alternatively, the [current and upcoming weather](https://chrome.google.com/webstore/detail/currently/ojhmphdkpgbibohbnpbfiefkgieacjmh) might be of interest to plan ahead.
+You might be happy starting at Google's Homepage, but for your grandma, a page with some more information or direct links might be a better starting point. [Speed dial 2](https://chrome.google.com/webstore/detail/speed-dial-2-new-tab/jpfpebmajhhopeonhlcgidhclcccjcik) is a simple new-tab extension you can customize. Set it to show big links with icons to make sure she finds her way around the web easier. This avoids typing which is more challenging for seniors. Alternatively, the [current and upcoming weather](https://chrome.google.com/webstore/detail/weather-for-chrome/djgcclepbpbjmgpooagcjgidkejhdfnn) might be of interest to plan ahead.
 
 #4 Zoom Extension
 -----------------
