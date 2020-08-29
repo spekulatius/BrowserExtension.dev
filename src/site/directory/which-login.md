@@ -1,7 +1,7 @@
 ---
 title: Which Login did I use last time?
 date: 2020-01-01
-icon: https://ph-files.imgix.net/abd662a2-90d0-41e4-a10a-ff703cccceb0
+icon: /images/icons/which-login.gif
 description: Keep forgetting how you signed in for websites? This browser extension remembers which social login you used last time for you.
 keywords: login, sign-in, social login, extension, browser extension, firefox extension, producthunt, twitter, facebook
 
