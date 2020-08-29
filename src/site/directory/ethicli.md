@@ -1,7 +1,7 @@
 ---
 title: Ethicli helps you to shop more ethical
 date: 2020-07-13
-icon: /images/Ethicli/icon.png
+icon: /images/icons/ethicli.png
 description: Online shoppers who want to shop more ethically without committing hours of research for each product they purchase
 keywords: Ethical Shopping, Amazon, Etsy, Browser Extension
 

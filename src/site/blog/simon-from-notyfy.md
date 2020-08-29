@@ -31,7 +31,7 @@ Notyfy will check in the background if there are new notifications on your logge
 
 When a new notification appears, [Notyfy](https://browserextension.dev/directory/notyfy/) will add an unobtrusive "1" badge on the extension's icon. It will give you the relief that you haven't forgotten to follow up on things. Your aunt's birthday on Facebook? Your job inquiry message on LinkedIn? The Reddit post you made and somebody replied two days later? New comments on your ProductHunt launch? You won't miss out anymore! You are covered for this and many other cases.
 
-![Notyfy popup window](/images/notyfy.png)
+![Notyfy popup window](/images/notyfy/extension.png)
 
 
 Which browsers do you support?

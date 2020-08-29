@@ -1,8 +1,8 @@
 ---
-title: Interview with Giuseppe, the maker of Lesstabs and Slowcalhost
+title: Giuseppe is building Lesstabs and Slowcalhost
 date: 2020-08-23
 type: Interview
-image: https://browserextension.dev/images/Giuseppe/sharing.png
+image: https://browserextension.dev/images/Lesstabs-and-Slowcalhost/sharing.png
 description: Lesstabs help you taking control of your browser by closing old tabs and slowcalhost is helps developers to build faster websites by slowing localhost down by default.
 keywords: slow localhost down, automatically close tabs
 
@@ -49,7 +49,7 @@ I am an independent web engineer with an interest in React, JavaScript infrastru
 What's your favorite part about building extensions?
 ----------------------------------------------------
 
-Implementing the core functionality of the extension to the point that is already usable and useful even if not polished. I also love launch days! 
+Implementing the core functionality of the extension to the point that is already usable and useful even if not polished. I also love launch days!
 
 What goals do you have for the future?
 --------------------------------------
