@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "The website of browserextension.dev",
   "author": "Peter Thaleikis",
-  "license": "private",
+  "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/spekulatius/browserextension.dev"
