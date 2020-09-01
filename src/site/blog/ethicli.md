@@ -7,7 +7,6 @@ keywords: interview, extension development, ethical online shopping
 
 links:
   chrome: https://chrome.google.com/webstore/detail/ethicli/pkbciefpddgopoopoffffnnfobiofagl/
-  firefox: https://addons.mozilla.org/en-US/firefox/addon/ethicli/
 ---
 
 Ethicli helps you making better ethical decisions when shopping online.
