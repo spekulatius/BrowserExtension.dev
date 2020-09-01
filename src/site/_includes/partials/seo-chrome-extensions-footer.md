@@ -1,0 +1,1 @@
+This list is regularly updated from the <a href="https://github.com/awesome-seo-tools/seo-browser-extensions" target="_blank">GitHub repository</a> behind it. Please submit all requests for updates there. Don't forget to give it a star ⭐️ too!
