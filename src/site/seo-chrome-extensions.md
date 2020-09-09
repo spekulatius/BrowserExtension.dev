@@ -1,4 +1,5 @@
 ---
+title: "SEO Chrome Extensions - BrowserExtension.dev"
 layout: default
 pageClass: directory
 templateEngineOverride: njk, md
