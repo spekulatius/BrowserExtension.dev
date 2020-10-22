@@ -3,10 +3,10 @@
 #
 # Script for myself to sync the awesome-seo-chrome extensions repo over now and then.
 #
-# @see: https://github.com/awesome-seo-tools/seo-browser-extensions
+# @see: https://github.com/awesome-seo/seo-browser-extensions
 #
 
-git clone git@github.com:awesome-seo-tools/seo-browser-extensions.git /tmp/seo-browser-extensions;
+git clone git@github.com:awesome-seo/seo-browser-extensions.git /tmp/seo-browser-extensions;
 
 php .scripts/generate.php \
     "SEO Chrome Extensions" \
