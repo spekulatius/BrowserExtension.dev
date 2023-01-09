@@ -4,7 +4,7 @@
   # functions = "./src/functions"
 
 [context.production]
-  environment = { NODE_VERSION = "10.15.3", NODE_ENV = "production" }
+  environment = { NODE_VERSION = "16.17.0", NODE_ENV = "production" }
 
 
 [dev]
